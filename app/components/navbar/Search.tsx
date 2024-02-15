@@ -22,7 +22,7 @@ const Search = () => {
     if (locationValue) {
       return getByValue(locationValue as string)?.label;
     }
-
+//new
     return 'Anywhere';
   }, [locationValue, getByValue]);
 
