@@ -1,0 +1,11 @@
+--- node_modules/world-countries/index.d.ts	2024-02-15 13:09:45
++++ original-index.d.ts	2024-02-15 13:08:03
+@@ -42,7 +42,7 @@
+   languages: { [languageCode: string]: string }
+   translations: { [languageCode: string]: OfficialAndCommon }
+   latlng: [number, number]
+-  demonyms: { [languageCode: string]?: Demonyms }
++  demonyms: { [languageCode: string]: Demonyms }
+   landlocked: boolean
+   borders: string[]
+   area: number
